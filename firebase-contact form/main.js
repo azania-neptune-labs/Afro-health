@@ -1,13 +1,13 @@
  // Initialize Firebase Database
- var config = {
-   apiKey: "AIzaSyARS5brBAq1Tw3pBv_UkPgxUwtmuqDreUI",
-   authDomain: "patient-contact-forms.firebaseapp.com",
-   databaseURL: "https://patient-contact-forms.firebaseio.com",
-   projectId: "patient-contact-forms",
-   storageBucket: "patient-contact-forms.appspot.com",
-   messagingSenderId: "169215544535"
- };
- firebase.initializeApp(config);
+   var production_config = {
+      apiKey: "AIzaSyCCezcs4ErslTo9uykG4ZPWeV1UxESVkec",
+      authDomain: "azania-cloud.firebaseapp.com",
+      databaseURL: "https://azania-cloud.firebaseio.com",
+      projectId: "azania-cloud",
+      storageBucket: "azania-cloud.appspot.com",
+      messagingSenderId: "933439480573"
+    };
+ 
 
  //messages reference collections
  var messagesRef = firebase.database().ref('messages');
